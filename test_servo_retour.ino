@@ -56,7 +56,7 @@ for(pos = 90; pos < 180; pos += 1)  // aller de 90° à 180°
     myservo.write(pos);             // aller à la position stocké dans 'pos'
     potentio = map(analogRead(A0), 0, 1023, 0, 179);
     Serial.print(pos);            // afficher
-    Serial.print(" , ");            // virgule
+    Serial.print(" ; ");            // virgule
     Serial.println(potentio);         // valeur potentio
     delay(100);                       // attendre 15ms que le servomoteur se rende à 'pos'
   } 
@@ -72,7 +72,7 @@ for(pos = 180; pos > 90; pos -= 1)  // aller de 180° à 90°
     myservo.write(pos);             // aller à la position stocké dans 'pos'
     int potentio = map(analogRead(A0), 0, 1023, 0, 179);
     Serial.print(pos);            // afficher
-    Serial.print(" , ");            // virgule
+    Serial.print(" ; ");            // virgule
     Serial.println(potentio);         // valeur potentio
     delay(100);                       // attendre 15ms que le servomoteur se rende à 'pos'
   } 
@@ -89,7 +89,7 @@ delay(2000); // attendre 2 secondes
     myservo.write(pos);             // aller à la position stocké dans 'pos'
     int potentio = map(analogRead(A0), 0, 1023, 0, 179);
     Serial.print(pos);            // afficher
-    Serial.print(" , ");            // virgule
+    Serial.print(" ; ");            // virgule
     Serial.println(potentio);         // valeur potentio
     delay(100);                       // attendre 15ms que le servomoteur se rende à 'pos'
   } 
