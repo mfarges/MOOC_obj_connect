@@ -49,7 +49,7 @@ for(pos = 0; pos < 90; pos += 1)  // aller de 0° à 90°
   Serial.print("\t pos = ");      
   Serial.println(pos);
 
-delay(5000); // attendre 5 secondes
+delay(2000); // attendre 2 secondes
 
 for(pos = 90; pos < 180; pos += 1)  // aller de 90° à 180°
   {                                  // une étape à la fois
@@ -81,7 +81,7 @@ for(pos = 180; pos > 90; pos -= 1)  // aller de 180° à 90°
   Serial.print("\t pos = ");      
   Serial.println(pos);
 
-delay(5000); // attendre 2 secondes
+delay(2000); // attendre 2 secondes
 
 // fonctionnement servo
   for(pos = 90; pos>=1; pos-=1)     /// aller de 90° à 0°
@@ -98,7 +98,7 @@ delay(5000); // attendre 2 secondes
   Serial.print("\t pos = ");      
   Serial.println(pos);
 
-delay(2000); // attendre 2 secondes
+delay(5000); // attendre 5 secondes
 
 }// fin void loop
 
