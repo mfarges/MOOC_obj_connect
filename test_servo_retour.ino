@@ -1,10 +1,10 @@
 /* 
-  Test d'un servo moteur
+  Test d'un servo moteur à retour d'info, ici Batan S1123 avec module ESP
  
+ Le montage, avec un module ESP :
  
- Le montage :
- 
- * Un servo-moteur sur la broche D1 du module ESP
+ * Un servo-moteur sur la broche D1 du module ESP, et 
+ * La broche du potentiomète interne au servo-moteur sur A0 du module ESP.
  
  créé le 30 novembre 2017
  par Mathieu Farges
